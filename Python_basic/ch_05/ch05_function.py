@@ -12,13 +12,13 @@ def calc_test (a, b, operator='+'):
 print('결과 = ', calc_test(2, 10, '**'))
 
 
-def return_test(a, b):
-    plus = a + b
-    minus = a - b
-    return plus, minus
+# def return_test(a, b):
+#     plus = a + b
+#     minus = a - b
+#     return plus, minus
 
-print(calc_test(3, 4, '*'))
-print(return_test(5, 4))
+# print(calc_test(3, 4, '*'))
+# print(return_test(5, 4))
 
 
 
