@@ -9,11 +9,11 @@ f = open('csv_sample.csv', 'w', encoding='utf-8', newline='')
 csv_wr = csv.writer(f)
 
 # 리스트 데이터 쓰기
-csv_wr.writerow([1, 'LFD', 'MR16DD'])
-csv_wr.writerow([2, 'LFD', 'MR18DD'])
-csv_wr.writerow([3, 'LFD', 'MR20DD'])
-csv_wr.writerow([4, 'LJL', 'HR13DD'])
-csv_wr.writerow([5, 'LJL', 'HR16DE'])
+csv_wr.writerow([1, 'Oh_my_girl', 'HYOJUNG'])
+csv_wr.writerow([2, 'Oh_my_girl', 'ARIN'])
+csv_wr.writerow([3, 'Oh_my_girl', 'YOOA'])
+csv_wr.writerow([4, 'aespa', 'KARINA'])
+csv_wr.writerow([5, 'aespa', 'WINTER'])
 
 # csv_sample.csv 파일 닫기
 f.close()
