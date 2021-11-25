@@ -30,6 +30,7 @@ test.add(3, 4)
 
 # create instance
 test2 = child2_class()
+
 # overriding method
 test2.add(3, 4)
 
